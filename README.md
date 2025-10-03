@@ -133,7 +133,7 @@ When the graph has abundant odd holes and odd antiholes, it is easy to infer tha
 
 For the graphs that are not perfect, we randomly generated [Erdös-Renyi](https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model) and [Barabasi-Albert](https://en.wikipedia.org/wiki/Barab%C3%A1si%E2%80%93Albert_model) graphs. For generating the perfect graphs, we used the `IterativeModificationHeuristic` (IMH) described in [[2]](https://arxiv.org/abs/2507.21987) and some operations which is used to obtain perfect graphs (PO) explained in [[3]](https://doi.org/10.1016/j.ejor.2020.09.017).
 
-<table border="1" class="dataframe">
+<table style="width:80%; font-size:12px" border="1" class="dataframe">
   <thead>
     <tr>
       <th colspan="2" rowspan="2">Graph Type:</th>
@@ -584,7 +584,7 @@ For the graphs that are not perfect, we randomly generated [Erdös-Renyi](https:
 
 In the figure below, the runtimes are displayed in a box plot. As a note, the PO instances where we do not have results for `igraph` library are not included in the data for figure.
 
-![image](experiment/fig.png)
+<img src="experiment/fig.png" alt="image" width="700">
 
 
 ## References
