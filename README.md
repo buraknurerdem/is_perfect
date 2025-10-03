@@ -13,7 +13,7 @@ Additionally, this program can be used to enumerate and list all odd holes and o
 Download or clone this repository to your machine. You may download directly from Github webpage: Code > Code > Download ZIP. Then extract the archived file. Or, you may clone the repository using git.
 
 ```
-git clone https://github.com/buraknurerdem/is-perfect
+git clone https://github.com/buraknurerdem/is_perfect
 ```
 
 ### 2. Compiling the code
