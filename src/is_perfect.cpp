@@ -32,8 +32,8 @@ struct Program_Log
     unsigned int n_perfect = 0;
     unsigned int n_nonperfect = 0;
 
-    std::chrono::steady_clock::time_point time_start;
-    std::chrono::steady_clock::time_point time_end;
+    std::chrono::high_resolution_clock::time_point time_start;
+    std::chrono::high_resolution_clock::time_point time_end;
 };
 
 void print_usage()
